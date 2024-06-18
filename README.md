@@ -3,7 +3,17 @@ Welcome to Alex's Chess AI with No Machine Learning!
 
 The AI currently has the following features:
 
-The actual game of chess, however, should work near perfectly. You can play against a friend on it if you want.
+- alpha-beta pruning
+- some asynchronous move calculation
+
+Coming soon are the following:
+
+- hash table for remembering transpositions of move order
+- more asynchronous move calculation
+
+The AI is still slightly buggy due to a recent refactoring to make move calculations asynchronous, but fixes are coming soon.
+
+The code that runs the game of chess should be fine. You can play against a friend on it if you want by setting both players as human, or watch the AI play against itself by setting both players as AI.
 
 Moves are made by clicking once on the piece you want to move and then once on the square you want to move to. 
 Support for clicking and dragging is coming but has not been implemented yet.
@@ -41,6 +51,11 @@ Controls:
 - V: load board position from save
 
 
-The program should run and play some hopefully not terrible chess. Feel free to grab a friend to play a game against, or to see if they can beat the AI.
-The AI will also play against itself if you set both players to be AI.
+Coming soon:
+
+- Toggle eval bar on/off
+- Move timers
+- Main menu
+- Post-game analysis
+
 
